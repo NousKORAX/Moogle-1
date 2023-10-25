@@ -8,7 +8,7 @@ public class Matriz
     }
     public static Matriz SumaMatriz(Matriz a, Matriz b)
     {
-        if (a.data.GetLength(0) != b.data.GetLength(0) || a.data.GetLength(1) != b.data.GetLength(1))
+        if (agth(0) != b.data.GetLength(0) || a.data.GetLength(1) != b.data.GetLength(1))
         {
             throw new ArgumentException("Matrices must have the same dimensions");
         }
